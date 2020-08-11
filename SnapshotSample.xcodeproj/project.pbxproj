@@ -15,6 +15,7 @@
 		0844A55F24E2152E00A5C949 /* SnapshotSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0844A55E24E2152E00A5C949 /* SnapshotSampleTests.swift */; };
 		0844A56A24E2175400A5C949 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0844A56924E2175400A5C949 /* TextViewController.swift */; };
 		0844A56C24E2175D00A5C949 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0844A56B24E2175D00A5C949 /* PictureViewController.swift */; };
+		0844A57324E2185800A5C949 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0844A57224E2185800A5C949 /* FBSnapshotTestCase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		0844A56024E2152E00A5C949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0844A56924E2175400A5C949 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		0844A56B24E2175D00A5C949 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		0844A57224E2185800A5C949 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0844A57324E2185800A5C949 /* FBSnapshotTestCase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 				0844A54624E2152C00A5C949 /* SnapshotSample */,
 				0844A55D24E2152E00A5C949 /* SnapshotSampleTests */,
 				0844A54524E2152C00A5C949 /* Products */,
+				0844A57124E2185800A5C949 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +106,14 @@
 			path = SnapshotSampleTests;
 			sourceTree = "<group>";
 		};
+		0844A57124E2185800A5C949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0844A57224E2185800A5C949 /* FBSnapshotTestCase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +141,7 @@
 				0844A55624E2152E00A5C949 /* Sources */,
 				0844A55724E2152E00A5C949 /* Frameworks */,
 				0844A55824E2152E00A5C949 /* Resources */,
+				0844A57424E2185B00A5C949 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -197,6 +210,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0844A57424E2185B00A5C949 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/FBSnapshotTestCase.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0844A54024E2152C00A5C949 /* Sources */ = {
@@ -405,6 +441,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLN29ZWFG6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SnapshotSampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -427,6 +467,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLN29ZWFG6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SnapshotSampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
