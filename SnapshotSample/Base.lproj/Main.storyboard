@@ -16,18 +16,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="8Aw-vn-su6">
-                                <rect key="frame" x="90" y="331" width="234" height="234"/>
+                                <rect key="frame" x="91" y="331" width="234" height="234"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="234" id="9kN-27-FsP"/>
                                     <constraint firstAttribute="width" secondItem="8Aw-vn-su6" secondAttribute="height" multiplier="1:1" id="a9G-le-XCO"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="a4v-tj-gmq" firstAttribute="trailing" secondItem="8Aw-vn-su6" secondAttribute="trailing" constant="90" id="46B-bY-PTf"/>
-                            <constraint firstItem="8Aw-vn-su6" firstAttribute="centerX" secondItem="Be4-7B-UpM" secondAttribute="centerX" id="Hyc-Oo-0Kr"/>
+                            <constraint firstItem="8Aw-vn-su6" firstAttribute="centerX" secondItem="Be4-7B-UpM" secondAttribute="centerX" constant="1" id="Hyc-Oo-0Kr"/>
                             <constraint firstItem="8Aw-vn-su6" firstAttribute="centerY" secondItem="Be4-7B-UpM" secondAttribute="centerY" id="WNQ-b8-U1i"/>
-                            <constraint firstItem="8Aw-vn-su6" firstAttribute="leading" secondItem="a4v-tj-gmq" secondAttribute="leading" constant="90" id="tgV-PU-hZE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="a4v-tj-gmq"/>
                     </view>
@@ -46,10 +45,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRP-1a-kAz">
-                                <rect key="frame" x="20.5" y="204.5" width="373" height="487"/>
+                                <rect key="frame" x="20.5" y="228.5" width="373" height="439.5"/>
                                 <string key="text">　吾輩わがはいは猫である。名前はまだ無い。
 　どこで生れたかとんと見当けんとうがつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪どうあくな種族であったそうだ。この書生というのは時々我々を捕つかまえて煮にて食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌てのひらに載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの見始みはじめであろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶やかんだ。その後ご猫にもだいぶ逢あったがこんな片輪かたわには一度も出会でくわした事がない。のみならず顔の真中があまりに突起している。そうしてその穴の中から時々ぷうぷうと煙けむりを吹く。どうも咽むせぽくて実に弱った。これが人間の飲む煙草たばこというものである事はようやくこの頃知った。</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
