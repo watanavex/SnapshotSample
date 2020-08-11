@@ -15,7 +15,7 @@ class PictureViewControllerTests: FBSnapshotTestCase {
     override func setUp() {
         super.setUp()
         
-        self.recordMode = false
+        self.recordMode = SnapshotSampleTests.recordMode
     }
 
     func test_snapshot() {
