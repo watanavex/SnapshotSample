@@ -14,7 +14,6 @@
 		0844A54F24E2152C00A5C949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0844A54D24E2152C00A5C949 /* Main.storyboard */; };
 		0844A55124E2152D00A5C949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0844A55024E2152D00A5C949 /* Assets.xcassets */; };
 		0844A55424E2152E00A5C949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0844A55224E2152E00A5C949 /* LaunchScreen.storyboard */; };
-		0844A55F24E2152E00A5C949 /* SnapshotSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0844A55E24E2152E00A5C949 /* SnapshotSampleTests.swift */; };
 		0844A56A24E2175400A5C949 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0844A56924E2175400A5C949 /* TextViewController.swift */; };
 		0844A56C24E2175D00A5C949 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0844A56B24E2175D00A5C949 /* PictureViewController.swift */; };
 		0844A57324E2185800A5C949 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0844A57224E2185800A5C949 /* FBSnapshotTestCase.framework */; };
@@ -41,7 +40,6 @@
 		0844A55324E2152E00A5C949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0844A55524E2152E00A5C949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0844A55A24E2152E00A5C949 /* SnapshotSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0844A55E24E2152E00A5C949 /* SnapshotSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotSampleTests.swift; sourceTree = "<group>"; };
 		0844A56024E2152E00A5C949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0844A56924E2175400A5C949 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		0844A56B24E2175D00A5C949 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 		0844A55D24E2152E00A5C949 /* SnapshotSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				0844A55E24E2152E00A5C949 /* SnapshotSampleTests.swift */,
 				082C159F24E21B5D0090F0AD /* PictureViewControllerTests.swift */,
 				082C159D24E21B4C0090F0AD /* TextViewControllerTests.swift */,
 				0844A56024E2152E00A5C949 /* Info.plist */,
@@ -256,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0844A55F24E2152E00A5C949 /* SnapshotSampleTests.swift in Sources */,
 				082C159E24E21B4C0090F0AD /* TextViewControllerTests.swift in Sources */,
 				082C15A024E21B5D0090F0AD /* PictureViewControllerTests.swift in Sources */,
 			);
