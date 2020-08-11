@@ -1,0 +1,40 @@
+{
+  "configurations" : [
+    {
+      "id" : "6387A3CB-08C2-4739-911D-5EA58EF45D95",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "environmentVariableEntries" : [
+      {
+        "key" : "FB_REFERENCE_IMAGE_DIR",
+        "value" : "$(SOURCE_ROOT)\/$(PROJECT_NAME)Tests\/ReferenceImages"
+      },
+      {
+        "key" : "IMAGE_DIFF_DIR",
+        "value" : "$(SOURCE_ROOT)\/$(PROJECT_NAME)Tests\/FailureDiffs"
+      }
+    ],
+    "language" : "ja",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SnapshotSample.xcodeproj",
+      "identifier" : "0844A54324E2152C00A5C949",
+      "name" : "SnapshotSample"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SnapshotSample.xcodeproj",
+        "identifier" : "0844A55924E2152E00A5C949",
+        "name" : "SnapshotSampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}

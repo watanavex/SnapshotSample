@@ -32,6 +32,7 @@
 /* Begin PBXFileReference section */
 		082C159D24E21B4C0090F0AD /* TextViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewControllerTests.swift; sourceTree = "<group>"; };
 		082C159F24E21B5D0090F0AD /* PictureViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewControllerTests.swift; sourceTree = "<group>"; };
+		082C15A324E221A90090F0AD /* SnapshotSample.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SnapshotSample.xctestplan; sourceTree = "<group>"; };
 		0844A54424E2152C00A5C949 /* SnapshotSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0844A54724E2152C00A5C949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0844A54924E2152C00A5C949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		0844A53B24E2152C00A5C949 = {
 			isa = PBXGroup;
 			children = (
+				082C15A324E221A90090F0AD /* SnapshotSample.xctestplan */,
 				0844A54624E2152C00A5C949 /* SnapshotSample */,
 				0844A55D24E2152E00A5C949 /* SnapshotSampleTests */,
 				0844A54524E2152C00A5C949 /* Products */,
