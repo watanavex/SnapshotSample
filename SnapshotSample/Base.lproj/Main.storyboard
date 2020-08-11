@@ -10,7 +10,7 @@
         <!--Picture-->
         <scene sceneID="91O-XO-SHW">
             <objects>
-                <viewController storyboardIdentifier="Picture" id="yHm-Pc-J7Z" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Picture" id="yHm-Pc-J7Z" customClass="PictureViewController" customModule="SnapshotSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Be4-7B-UpM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,7 @@
         <!--Text-->
         <scene sceneID="1E2-8b-s8a">
             <objects>
-                <viewController storyboardIdentifier="Text" id="iah-md-3pO" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Text" id="iah-md-3pO" customClass="TextViewController" customModule="SnapshotSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d7e-Us-zE3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
