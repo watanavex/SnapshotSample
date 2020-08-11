@@ -21,7 +21,7 @@ class PictureViewControllerTests: FBSnapshotTestCase {
     func test_snapshot() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(identifier: "Picture")
-        FBSnapshotVerifyView(viewController.view)
+        snapshotBothMode(viewController)
     }
 
 }

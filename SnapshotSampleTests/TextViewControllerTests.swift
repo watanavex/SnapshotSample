@@ -21,7 +21,7 @@ class TextViewControllerTests: FBSnapshotTestCase {
     func test_snapshot() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(identifier: "Text")
-        FBSnapshotVerifyView(viewController.view)
+        snapshotBothMode(viewController)
     }
 
 }

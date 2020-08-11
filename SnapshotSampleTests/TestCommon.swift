@@ -7,5 +7,20 @@
 //
 
 import Foundation
+import FBSnapshotTestCase
 
 let recordMode = false
+
+extension FBSnapshotTestCase {
+    
+    func snapshotBothMode(_ viewController: UIViewController, file: StaticString = #file, line: UInt = #line) {
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.rootViewController = viewController
+        window.makeKeyAndVisible()
+
+        FBSnapshotVerifyView(window, identifier: "light", file: file, line: line)
+        window.overrideUserInterfaceStyle = .dark
+        FBSnapshotVerifyView(window, identifier: "dark", file: file, line: line)
+    }
+    
+}
