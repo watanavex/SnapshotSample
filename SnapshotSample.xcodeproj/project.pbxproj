@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		082C159E24E21B4C0090F0AD /* TextViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C159D24E21B4C0090F0AD /* TextViewControllerTests.swift */; };
 		082C15A024E21B5D0090F0AD /* PictureViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C159F24E21B5D0090F0AD /* PictureViewControllerTests.swift */; };
-		082C15AB24E226050090F0AD /* TestCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C15AA24E226050090F0AD /* TestCommon.swift */; };
 		082C15A524E224310090F0AD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C15A424E224310090F0AD /* main.swift */; };
 		082C15A724E2247C0090F0AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C15A624E2247C0090F0AD /* AppDelegate.swift */; };
+		082C15AB24E226050090F0AD /* TestCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C15AA24E226050090F0AD /* TestCommon.swift */; };
+		082C15B324E251F80090F0AD /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C15B224E251F80090F0AD /* NewViewController.swift */; };
 		0844A54824E2152C00A5C949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0844A54724E2152C00A5C949 /* AppDelegate.swift */; };
 		0844A54A24E2152C00A5C949 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0844A54924E2152C00A5C949 /* SceneDelegate.swift */; };
 		0844A54F24E2152C00A5C949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0844A54D24E2152C00A5C949 /* Main.storyboard */; };
@@ -36,9 +37,10 @@
 		082C159D24E21B4C0090F0AD /* TextViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewControllerTests.swift; sourceTree = "<group>"; };
 		082C159F24E21B5D0090F0AD /* PictureViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewControllerTests.swift; sourceTree = "<group>"; };
 		082C15A324E221A90090F0AD /* SnapshotSample.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SnapshotSample.xctestplan; sourceTree = "<group>"; };
-		082C15AA24E226050090F0AD /* TestCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCommon.swift; sourceTree = "<group>"; };
 		082C15A424E224310090F0AD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		082C15A624E2247C0090F0AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		082C15AA24E226050090F0AD /* TestCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCommon.swift; sourceTree = "<group>"; };
+		082C15B224E251F80090F0AD /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		0844A54424E2152C00A5C949 /* SnapshotSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0844A54724E2152C00A5C949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0844A54924E2152C00A5C949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				0844A54924E2152C00A5C949 /* SceneDelegate.swift */,
 				0844A56924E2175400A5C949 /* TextViewController.swift */,
 				0844A56B24E2175D00A5C949 /* PictureViewController.swift */,
+				082C15B224E251F80090F0AD /* NewViewController.swift */,
 				0844A54D24E2152C00A5C949 /* Main.storyboard */,
 				0844A55024E2152D00A5C949 /* Assets.xcassets */,
 				0844A55224E2152E00A5C949 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 				0844A54824E2152C00A5C949 /* AppDelegate.swift in Sources */,
 				082C15A524E224310090F0AD /* main.swift in Sources */,
 				0844A54A24E2152C00A5C949 /* SceneDelegate.swift in Sources */,
+				082C15B324E251F80090F0AD /* NewViewController.swift in Sources */,
 				0844A56A24E2175400A5C949 /* TextViewController.swift in Sources */,
 				0844A56C24E2175D00A5C949 /* PictureViewController.swift in Sources */,
 			);
